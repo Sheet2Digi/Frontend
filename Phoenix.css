@@ -1,0 +1,25 @@
+body {
+  color: white;
+  background-image: url('http://p1.pichost.me/i/26/1493707.jpg');
+}
+.Title {
+  text-align: center;
+  font-size: 40px;
+  padding: 0px;
+  margin: 0px;
+}
+.SubTitle {
+  text-align: center;
+  font-size: 30px;
+}
+p1 {
+  font-size: 20px;
+  text-align: center;
+}
+.AboutUs {
+  text-align: center;
+}
+
+* {
+  font-family: serif;
+}
