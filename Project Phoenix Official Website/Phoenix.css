@@ -5,7 +5,11 @@
 /*The image is from this URL: http://www.pptbackgrounds.net/piano-backgrounds.html */
 .Body {
   color: white;
-  background-image: url('http://www.pptbackgrounds.net/uploads/piano-backgrounds-wallpapers.jpg');
+  background-image: url("piano-backgrounds-wallpapers.jpg");
+  background-position: center;
+  background-size: cover;
+  background-size: contain;
+  background-repeat: no-repeat;
 }
 #Main {
   margin: auto;
@@ -67,7 +71,9 @@
 /*This extends the page so we can see the piano if we
 scroll down.*/
 #Extend {
-  height: 400px;
+  height: 500px;
+  width: 100%;
+  color: brown;
 }
 
 #Description {
