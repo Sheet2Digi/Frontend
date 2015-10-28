@@ -44,7 +44,7 @@
 
 #UPLOAD {
   margin: auto;
-  height: 60px;
+  height: 57px;
   width: 280px;
   background-color: rgba(180, 180, 180, 0.5);
   text-align: center;
@@ -78,11 +78,13 @@
 
 #HugoQuote {
   margin-top: 240px;
+  height: 120px;
 }
 
 #HugoQuote b {
   font-size: 70px;
 }
+
 /*This extends the page so we can see the piano if we
 scroll down.*/
 #Extend {
