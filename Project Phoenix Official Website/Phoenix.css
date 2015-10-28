@@ -67,5 +67,12 @@
 /*This extends the page so we can see the piano if we
 scroll down.*/
 #Extend {
-  height: 700px;
+  height: 400px;
+}
+
+#Description {
+  width: 60%;
+  margin: auto;
+  text-align: center;
+  font-size: 35px;
 }
