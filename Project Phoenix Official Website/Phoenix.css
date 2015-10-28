@@ -8,7 +8,6 @@
   background-image: url("piano-backgrounds-wallpapers.jpg");
   background-position: center;
   background-size: cover;
-  background-size: contain;
   background-repeat: no-repeat;
 }
 #Main {
