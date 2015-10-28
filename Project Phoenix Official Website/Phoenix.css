@@ -2,16 +2,17 @@
   font-family: serif;
 }
 
+/*The image is from this URL: http://www.pptbackgrounds.net/piano-backgrounds.html */
 .Body {
   color: white;
-  background-image: url('http://p1.pichost.me/i/26/1493707.jpg');
+  background-image: url('http://www.pptbackgrounds.net/uploads/piano-backgrounds-wallpapers.jpg');
 }
 #Main {
   margin: auto;
   text-align: center;
   height: 300px;
   width: 460px;
-  background-color: rgba(180, 180, 180, 0.75);
+  background-color: rgba(180, 180, 180, 0.5);
   border-radius: 8px;
 }
 
@@ -20,6 +21,14 @@
   font-size: 60px;
   letter-spacing: 20px;
   padding-top: 10px;
+  padding-bottom: 0px;
+  height: 90px;
+}
+
+#Divider {
+  font-size: 30px;
+  letter-spacing: 20px;
+  height: 20px;
 }
 
 #Subtitle {
@@ -27,13 +36,14 @@
   font-size: 30px;
   letter-spacing: 15px;
   padding-bottom: 10px;
+  margin-left: 10px;
 }
 
 #UPLOAD {
   margin: auto;
   height: 60px;
   width: 280px;
-  background-color: rgba(180, 180, 180, 0.75);
+  background-color: rgba(180, 180, 180, 0.5);
   text-align: center;
   font-size: 30px;
   letter-spacing: 15px;
@@ -45,6 +55,17 @@
   border: 4px solid white;
   color: white;
   text-decoration: none;
-  padding-left: 10px;
+  padding-left: 12px;
   border-radius: 3px;
+}
+
+#UploadButton:hover{
+  color: black;
+  border: 4px solid black;
+}
+
+/*This extends the page so we can see the piano if we
+scroll down.*/
+#Extend {
+  height: 700px;
 }
