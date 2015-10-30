@@ -85,6 +85,9 @@
   font-size: 70px;
 }
 
+#Author {
+  margin-top: 150px;
+}
 /*This extends the page so we can see the piano if we
 scroll down.*/
 #Extend {
