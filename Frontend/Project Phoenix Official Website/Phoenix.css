@@ -105,11 +105,10 @@ scroll down.*/
   font-size: 35px;
 }
 
-#UploadButton {
-  margin: auto;
-}
 
 #PianoPic {
-  margin-bottom: 0;
-  bottom: 0;
+  margin-bottom: 0px;
+  bottom: 0px;
+  padding-bottom: 0px;
+  border-bottom: 0px;
 }
