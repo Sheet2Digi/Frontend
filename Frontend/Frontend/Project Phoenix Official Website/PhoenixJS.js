@@ -7,3 +7,10 @@ var main = function() {
   a.height = 100;
   a.width = 100;
 }
+
+$(document).ready(main);
+
+function upload() {
+	var file = document.getElementById("FileUpload").value;
+	alert("File: " + file);
+}
