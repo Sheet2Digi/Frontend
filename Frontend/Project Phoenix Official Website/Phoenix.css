@@ -5,7 +5,7 @@
 /*The image is from this URL: http://www.pptbackgrounds.net/piano-backgrounds.html */
 .Body {
   color: white;
-  background-image: url("piano-backgrounds-wallpapers.jpg");
+  background-image: url("fade.jpg");
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
@@ -78,8 +78,9 @@
 }
 
 #HugoQuote {
-  margin-top: 240px;
+  margin-top: 0px;
   height: 120px;
+  margin-bottom: 250px;
 }
 
 #HugoQuote b {
@@ -91,15 +92,24 @@
 }
 /*This extends the page so we can see the piano if we
 scroll down.*/
-#Extend {
+/*#Extend {
   height: 500px;
   width: 100%;
   color: brown;
 }
-
+*/
 #Description {
   width: 60%;
   margin: auto;
   text-align: center;
   font-size: 35px;
+}
+
+#UploadButton {
+  margin: auto;
+}
+
+#PianoPic {
+  margin-bottom: 0;
+  bottom: 0;
 }
