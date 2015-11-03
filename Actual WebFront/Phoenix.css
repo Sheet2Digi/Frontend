@@ -119,6 +119,7 @@ scroll down.*/
   height: 72px;
   margin-left: 10.65%;
   width: 80%;
+  position: relative;
 }
 
 .line {
@@ -126,15 +127,23 @@ scroll down.*/
   width: 100%;
   margin: auto;
   background-color: rgba(0, 0, 0, 1);
+  position: relative;
 }
 
-.note { /*half-step = 10px, defaults to center of middle line*/
+.notes {
+  height: 0px;
+  margin-left: 12%;
+  width: 77.3%;
+  position: relative;
+}
+
+.note { /*half-step = 10px, defaults to bottom*/
   height: 0px;
   width: 0%;
-  display: block;
+  display: none;
   float: left;
-  padding-left: 5%;
   margin-top: 0px; /* only margins <= 0px work */
+  position: relative;
 }
 
 .dot {
@@ -143,6 +152,12 @@ scroll down.*/
   margin-left: -18px;
   background-color: rgba(0, 0, 0, 1);
   border-radius: 36px/18px;
+  position: relative;
+}
+
+.dot:hover {
+  background-color: rgba(255, 255, 255, 1);
+  position: relative;
 }
 
 .tail {
@@ -151,4 +166,10 @@ scroll down.*/
 
 .shell {
   width: 0px;
+  position: relative;
+}
+
+.show {
+  display: block;
+  position: relative;
 }

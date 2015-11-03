@@ -14,7 +14,10 @@
     </div>
 
     <div id = "UPLOAD">
-      <div style="height:40px; padding-top:-10px"><input type="file" id="FileUpload"></div>
+      <form action="/ProjectPhoenix" method=Post enctype=multipart/form-data>
+        <input type="file" name="filename">
+        <input type="submit" value="SUBMIT">
+      </form>
       <a href="#" id="UploadButton" onclick="upload()">UPLOAD</a>
     </div>
 
@@ -33,44 +36,44 @@
       <br>
       <div class="line"></div>
     </div>
-    <div style="margin:center">
-      <div class="note" id="n2" style="padding-left:20%">
+    <div class="notes">
+      <div class="note" id="n0">
         <div class="shell">
           <div class="dot"></div>
         </div>
       </div>
 
-      <div class="note" id="n3" style="padding-left:30%">
+      <div class="note" id="n1">
         <div class="shell">
           <div class="dot"></div>
         </div>
       </div>
 
-      <div class="note" id="n3" style="padding-left:40%">
+      <div class="note" id="n2">
         <div class="shell">
           <div class="dot"></div>
         </div>
       </div>
 
-      <div class="note" id="n3" style="padding-left:50%">
+      <div class="note" id="n3">
         <div class="shell">
           <div class="dot"></div>
         </div>
       </div>
 
-      <div class="note" id="n3" style="padding-left:60%">
+      <div class="note" id="n4">
         <div class="shell">
           <div class="dot"></div>
         </div>
       </div>
 
-      <div class="note" id="n3" style="padding-left:70%">
+      <div class="note" id="n5">
         <div class="shell">
           <div class="dot"></div>
         </div>
       </div>
 
-      <div class="note" id="n3" style="padding-left:80%">
+      <div class="note" id="n6">
         <div class="shell">
           <div class="dot"></div>
         </div>
@@ -91,6 +94,6 @@
     </div>
 </body>
 
-<script src = "PhoenixJS.js"></script>
-<script src = "jquery-1.11.3.min.js"></script>
+<script src="jquery-1.11.3.min.js"></script>
+<script src="PhoenixJS.js"></script>
 </html>
