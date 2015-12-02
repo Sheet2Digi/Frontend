@@ -155,7 +155,7 @@ scroll down.*/
   position: relative;
 }
 
-.tail {
+.tailtop {
   width: 2px;
   height: 64px;
   position: relative;
@@ -164,6 +164,18 @@ scroll down.*/
   margin-top: -9px;*/
   margin-left: 16px;
   margin-top: -73px;
+  display: none;
+}
+.tailbot {
+  width: 2px;
+  height: 64px;
+  position: relative;
+  background-color: black;
+  margin-left: -18px;
+  margin-top: -9px;
+  display: none;
+  /*margin-left: 16px;
+  margin-top: -73px;*/
 }
 
 .shell {
